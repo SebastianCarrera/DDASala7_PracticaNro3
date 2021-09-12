@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ControlWeb.SiteMaster" %>
+
+<head>
+    <title> Home Page- Mi aplicación ASP.NET </title>
+</head>
+<form id="form1" runat="server">
+    <h1> Bienvenido a ASP.NET </h1>
+    <asp:Label ID="Ctrl" runat="server" BorderStyle="Dashed" Text="Test Border"></asp:Label>
+    <asp:CheckBoxList ID="chklst" runat="server">
+    </asp:CheckBoxList>
+    <asp:Button ID="cmdOK" runat="server" OnClick="cmdOK_Click" Text="Ok" />
+    <br />
+    <asp:Label ID="lblResult" runat="server"></asp:Label>
+</form>
